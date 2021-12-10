@@ -2,7 +2,7 @@ Algorithm -series of steps to solve a problem
 
 Data Structures 
 
-Effeciency also called complexity is about how well we use Computer resources to get any job done
+Efficiency also called complexity is about how well we use Computer resources to get any job done
 
 Thinking about efficiency in terms of Space and Time complexity 
 
