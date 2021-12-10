@@ -41,3 +41,6 @@ for the loop it has to compute each time to get the next letter in the string. s
 Its impossible to predict how many computations this pseudocode is going to take 
 
 There will be 26 checks in line 23 . So rewrite Big O notation as (29n+2)
+
+Why should we learn DSA - Its good to think about efficiency before writing code. For complex operations and tasks dealing with large data sets its really important to 
+write effecient code . 
