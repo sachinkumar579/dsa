@@ -1,1 +1,23 @@
-Data Structures and Algorithms
+Algorithm -series of steps to solve a problem 
+
+Data Structures 
+
+Effeciency also called complexity is about how well we use Computer resources to get any job done
+
+Thinking about efficiency in terms of Space and Time complexity 
+
+Time complexity - how long does code take to run 
+Space complexity - how much storage space it needs 
+
+O(n) Big O notation - describing efficiencty of code 
+
+(n) -> an algebraic expression - a mathematical function of variable n 
+
+n - length of input to the function 
+
+function print( input ){
+  
+   
+
+
+}
