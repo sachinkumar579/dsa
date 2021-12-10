@@ -15,9 +15,29 @@ O(n) Big O notation - describing efficiencty of code
 
 n - length of input to the function 
 
-function print( input ){
-  
-   
+Consider a Pseudocode 
+
+line 20 function print(input) :  - take a string input and iterate through it  
+line 21     create  output string ;  
+line 22     for each letter in string 
+line 23         get new letter from letters location in cipher 
+line 24         add new letter to output 
+line 25     return output 
 
 
-}
+line 21 and line 25 each happen only once, every time the function is run . Big O notation can be written as O (    2) . Add 2 for effeciency
+The 2 lines line 23 24 run for every letter in the string. So Big O notation can be written as O(2n+2) where n-> Number of letters 
+
+Example : 
+if n=10
+0(10) = 22 
+To get actual efficiency - Multiply this with the time computer takes to run 1 line of code 
+
+
+Addressing complications
+
+for the loop it has to compute each time to get the next letter in the string. so we can write O(n) as O(3n+2)
+
+Its impossible to predict how many computations this pseudocode is going to take 
+
+There will be 26 checks in line 23 . So rewrite Big O notation as (29n+2)
