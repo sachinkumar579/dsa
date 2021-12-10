@@ -89,6 +89,17 @@ Example 4
 Again we have nested for loops. This time we're iterating over the manatees list twice - every time we see a manatee, we compare it to every other manatee's age. We end up with O(nn), or O(n^2) (which is read as "n squared").
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Collections - group of things 
+
+Collections need not have same type of object
+
+or may not be linearly placed 
+
+There are many Data Structures that are an extension of Collections. We cannot directly use Collections in a programming language 
+
+
 
 Big-O Cheat Sheet - https://www.bigocheatsheet.com/
 
