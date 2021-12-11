@@ -1,3 +1,19 @@
 Class 
 
 A way to group together data that belongs together along with methods that are designed to manipulate that data 
+
+why do we even care about effeciency of programs
+
+Because data sets are getting massive . Machines are expected to run programs faster 
+
+A poorly written program can take really long to execute despite running on a faster machine 
+
+This measurement of performance/efficiency is independent of machine the code runs on 
+
+Check the behavior of the program as we change the size of the input 
+
+Express efficiency in terms of size of input 
+
+Express the growth of the programs runtime as that input grows 
+
+In polynomial expressions its the highest order expression that captures the complexity 
