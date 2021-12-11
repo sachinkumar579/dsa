@@ -17,3 +17,7 @@ Express efficiency in terms of size of input
 Express the growth of the programs runtime as that input grows 
 
 In polynomial expressions its the highest order expression that captures the complexity 
+
+In order of growth we look at the worst case 
+
+
