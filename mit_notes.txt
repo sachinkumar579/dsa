@@ -21,3 +21,35 @@ In polynomial expressions its the highest order expression that captures the com
 In order of growth we look at the worst case 
 
 
+Types of order of growth
+Constant O(1)
+Linear  O(n)
+Quadratic  O(n^2)
+logarithmic O(logn
+nlogn O(nlogn)
+exponential O(a^n) 
+
+Law of addition for O()
+O(f(n)) + O(g(n)) = O(f(n)+g(n))
+
+Example
+for i in range(n)
+  print('a')
+for i in range(n*n)
+  print('b')
+
+is O(n)+O(n*n) = O(n+n^2) = O(n^2) due to dominant term 
+
+Complexity growth
+
+Class   n=10 n=100 n=1000 n=1000000
+O(1)     1    1     1       1
+O(logn)  1    2     3       6
+O(n)     10   100   1000    1000000
+O(nlogn) 10   200   3000    6000000
+O(n^2)   100  10000 1000000 1000000000000
+O(2^n)   1024 big number , really big number , towards Infinity 
+
+
+Reference
+https://www.youtube.com/watch?v=o9nW0uBqvEo
