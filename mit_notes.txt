@@ -62,7 +62,7 @@ O(c^n) - nested recursive calls at each step
 Sorting
 - Bubble sort - O(n^2)
 - Selection sort - O(n^2)
-- 
+- Merge sort - O(n logn)
 
 Reference
 https://www.youtube.com/watch?v=o9nW0uBqvEo
