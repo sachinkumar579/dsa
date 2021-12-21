@@ -1,3 +1,5 @@
+https://leetcode.com/problems/running-sum-of-1d-array/
+
 let n =[3,1,2,10,1]
    let sumArr = []
    let sum = 0
