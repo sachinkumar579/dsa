@@ -11,8 +11,7 @@ https://leetcode.com/problems/search-insert-position/
        if(target==nums[mid]) return mid
        else if(target<nums[mid]) high = mid-1
        else if(target>nums[mid]) low = mid+1
-      mid = Math.floor((low+high)/2)
-      console.log(low,mid,high  )
+       mid = Math.floor((low+high)/2)
       }
       return low;
      }
