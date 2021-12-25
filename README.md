@@ -1,10 +1,10 @@
 # Data Structures and Algorithms
 
 - [Binary Search](#BinarySearch)
-- [Fibonacci Number] (#FibonacciNumber)
-- [Pascal Numbers] (#PascalNumbers)
-- [Running Sum Of 1D Array] (#RunningSumOf1DArray)
-- [ShuffleArray] (#ShuffleArray)
+- [Fibonacci Number](#FibonacciNumber)
+- [Pascal Numbers](#PascalNumbers)
+- [Running Sum Of 1D Array](#RunningSumOf1DArray)
+- [ShuffleArray](#ShuffleArray)
 
 # BinarySearch 
 
