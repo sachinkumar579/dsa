@@ -5,6 +5,7 @@
 - [Pascal Numbers](#PascalNumbers)
 - [Running Sum Of 1D Array](#RunningSumOf1DArray)
 - [ShuffleArray](#ShuffleArray)
+- [ReverseAString](#ReverseAString)
 
 # BinarySearch 
 
@@ -94,3 +95,17 @@ https://leetcode.com/problems/shuffle-the-array/
                res[i*2+1] =arr[arr.length/2+i]
            }
            console.log(res)
+
+# ReverseAString
+
+https://leetcode.com/problems/reverse-string/submissions/
+
+class Solution {
+    public void reverseString(char[] str) {
+        for(int i=0;i<str.length/2;i++){
+            char t = str[str.length-1-i];
+            str[str.length-1-i]=str[i];
+            str[i]=t;
+        }
+    }
+}
