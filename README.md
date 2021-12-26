@@ -100,12 +100,12 @@ https://leetcode.com/problems/shuffle-the-array/
 
 https://leetcode.com/problems/reverse-string/submissions/
 
-class Solution {
-    public void reverseString(char[] str) {
-        for(int i=0;i<str.length/2;i++){
+     class Solution {
+         public void reverseString(char[] str) {
+           for(int i=0;i<str.length/2;i++){
             char t = str[str.length-1-i];
             str[str.length-1-i]=str[i];
             str[i]=t;
-        }
-    }
-}
+         }
+       }
+     }
