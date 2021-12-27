@@ -157,17 +157,16 @@ https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 
      var kidsWithCandies = function(candies, extraCandies) {
   
-     let candiesArr = [...candies]
-     let large= candies.sort((a,b)=> a-b)[candies.length-1]
+     let large= Math.max(candies)
      
      for(let i=0;i<candies.length;i++){
-       if(candiesArr[i]+extraCandies>=large)
-           candiesArr[i]=true
+       if(candies[i]+extraCandies>=large)
+           candies[i]=true
            else
-           candiesArr[i]=false
+           candies[i]=false
      }
      
-     return candiesArr;
+     return candies;
 
     };
 
