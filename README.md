@@ -8,6 +8,8 @@
 - [ReverseAString](#ReverseAString)
 - [MatrixDiagonalSum](#MatrixDiagonalSum) 
 - [ReverseInteger](#ReverseInteger)
+- [GreatestNumberOfCandies](#GreatestNumberOfCandies)
+- [JewelsAndStones](#JewelsAndStones)
 
 # BinarySearch 
 
@@ -147,3 +149,9 @@ https://leetcode.com/problems/reverse-integer/
 
         return  rev;
       }
+      
+      
+# GreatestNumberOfCandies
+
+
+# JewelsAndStones
