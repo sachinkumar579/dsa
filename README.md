@@ -155,18 +155,21 @@ https://leetcode.com/problems/reverse-integer/
 
 https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 
+     var kidsWithCandies = function(candies, extraCandies) {
+  
      let candiesArr = [...candies]
      let large= candies.sort((a,b)=> a-b)[candies.length-1]
-     let newArr =[];
      
      for(let i=0;i<candies.length;i++){
        if(candiesArr[i]+extraCandies>=large)
-           newArr[i]=true
+           candiesArr[i]=true
            else
-           newArr[i]=false
+           candiesArr[i]=false
      }
      
-     return newArr;
+     return candiesArr;
+
+    };
 
 # JewelsAndStones
 
