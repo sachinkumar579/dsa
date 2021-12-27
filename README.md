@@ -153,7 +153,7 @@ https://leetcode.com/problems/reverse-integer/
       
 # GreatestNumberOfCandies
 
-// https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 
      let candiesArr = [...candies]
      let large= candies.sort((a,b)=> a-b)[candies.length-1]
@@ -170,7 +170,7 @@ https://leetcode.com/problems/reverse-integer/
 
 # JewelsAndStones
 
- // https://leetcode.com/problems/jewels-and-stones/
+https://leetcode.com/problems/jewels-and-stones/
 
      var numJewelsInStones = function(jewels, stones) {
            let count = 0;
