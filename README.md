@@ -4,13 +4,14 @@
 - [Fibonacci Number](#FibonacciNumber)
 - [Pascal Numbers](#PascalNumbers)
 - [Running Sum Of 1D Array](#RunningSumOf1DArray)
-- [ShuffleArray](#ShuffleArray)
-- [ReverseAString](#ReverseAString)
-- [MatrixDiagonalSum](#MatrixDiagonalSum) 
-- [ReverseInteger](#ReverseInteger)
-- [GreatestNumberOfCandies](#GreatestNumberOfCandies)
-- [JewelsAndStones](#JewelsAndStones)
-- [MergeSortedArray](#MergeSortedArray)
+- [Shuffle Array](#ShuffleArray)
+- [Reverse A String](#ReverseAString)
+- [Matrix DiagonalSum](#MatrixDiagonalSum) 
+- [Reverse Integer](#ReverseInteger)
+- [Greatest Number Of Candies](#GreatestNumberOfCandies)
+- [Jewels And Stones](#JewelsAndStones)
+- [Merge Sorted Array](#MergeSortedArray)
+- [Max Product of 2 numbers in an Array](#MaxProduct)
 
 # BinarySearch 
 
@@ -213,3 +214,15 @@ https://leetcode.com/problems/merge-sorted-array/submissions/
      console.log('---',nums1)
       
     }
+    
+    
+# MaxProduct
+
+https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+
+      var maxProduct = function(nums) {
+    
+      let numsArr = nums.sort((a,b)=>a-b)
+      return (numsArr[nums.length-1]-1)*(numsArr[nums.length-2]-1)
+    
+      };
