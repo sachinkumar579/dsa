@@ -211,9 +211,34 @@ https://leetcode.com/problems/merge-sorted-array/submissions/
         }  
      }
 
-     console.log('---',nums1)
+     console.log(nums1)
       
     }
+    
+    
+    
+    var merge = function(nums1, m, nums2, n) {
+    
+     let num2Ind = n-1
+     let num1Ind = m-1
+     let i = m+n-1
+
+     while(num2Ind>=0) { 
+       if(nums1[num1Ind]>nums2[num2Ind])
+          {
+          nums1[i]=nums1[num1Ind]
+          num1Ind-=1
+          }
+      else{
+        nums1[i]=nums2[num2Ind]
+        num2Ind-=1
+      }
+       i-=1 
+     }     
+    
+    return nums1;
+    };
+    
     
     
 # MaxProduct
