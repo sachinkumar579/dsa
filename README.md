@@ -215,6 +215,7 @@ https://leetcode.com/problems/merge-sorted-array/submissions/
       
     }
     
+    Time complexity - O(m^2 + n^2)
     
     
     var merge = function(nums1, m, nums2, n) {
@@ -239,7 +240,7 @@ https://leetcode.com/problems/merge-sorted-array/submissions/
     return nums1;
     };
     
-    
+    Time complexity - O(m+n)
     
 # MaxProduct
 
