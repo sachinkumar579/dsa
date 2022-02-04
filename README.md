@@ -16,6 +16,7 @@
 - [Majority Finder](#MajorityFinder)
 - [Single Number](#SingleNumber)
 - [Rotate Array](#RotateArray)
+- [TwoSum](#TwoSum)
 
 # BinarySearch 
 
@@ -334,3 +335,18 @@ https://leetcode.com/problems/rotate-array/
      };
 
      rotate([1, 2, 3, 4, 5, 6, 7], 3);
+
+# TwoSum
+
+https://leetcode.com/problems/two-sum/
+
+    var twoSum = function(nums, target) {
+      let map = new Map()
+     map.set(nums[0],0)
+     for (let index = 1; index < nums.length; index++) {
+           if(map.has(target-nums[index])){
+               return [index,map.get(target-nums[index])]
+           }
+           map.set(nums[index],index)
+     }
+     };
