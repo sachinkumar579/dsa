@@ -14,6 +14,7 @@
 - [Max Product of 2 numbers in an Array](#MaxProduct)
 - [Missing Number](#MissingNumber)
 - [Majority Finder](#MajorityFinder)
+- [Single Number](#SingleNumber)
 
 # BinarySearch 
 
@@ -295,5 +296,23 @@ https://leetcode.com/problems/majority-element/submissions/
      })
 
      return maxKey; 
+    
+    };
+
+
+# SingleNumber
+
+https://leetcode.com/problems/single-number/
+
+    var singleNumber = function(nums) {
+    
+     let set = new Set()
+       for (let index = 0; index < nums.length; index++) {      
+     if(set.has(nums[index]))
+        set.delete(nums[index])
+     else    
+     set.add(nums[index])
+     }
+     return(set.values().next().value)
     
     };
