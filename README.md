@@ -12,6 +12,7 @@
 - [Jewels And Stones](#JewelsAndStones)
 - [Merge Sorted Array](#MergeSortedArray)
 - [Max Product of 2 numbers in an Array](#MaxProduct)
+- [Missing Number](#MissingNumber)
 
 # BinarySearch 
 
@@ -252,3 +253,20 @@ https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
       return (numsArr[nums.length-1]-1)*(numsArr[nums.length-2]-1)
     
       };
+      
+# MissingNumber
+
+// https://leetcode.com/problems/missing-number/
+
+var missingNumber = function(nums) {
+
+    let sum = 0;
+
+    for(let i=0;i<nums.length;i++){
+        sum = sum+nums[i];      
+    }
+
+    return nums.length*(nums.length+1)/2-sum
+ 
+};
+      
