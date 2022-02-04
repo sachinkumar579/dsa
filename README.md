@@ -256,9 +256,9 @@ https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
       
 # MissingNumber
 
-// https://leetcode.com/problems/missing-number/
-
-var missingNumber = function(nums) {
+https://leetcode.com/problems/missing-number/
+  
+    var missingNumber = function(nums) {
 
     let sum = 0;
 
@@ -268,5 +268,5 @@ var missingNumber = function(nums) {
 
     return nums.length*(nums.length+1)/2-sum
  
-};
+    };
       
