@@ -19,6 +19,7 @@
 17 [TwoSum](#TwoSum)  <br/>
 18 [MoveZeros](#MoveZeros) <br/>
 19 [SquaresOfSortedArray](#SquaresOfSortedArray) <br/>
+20 [MaxSubArray](#MaxSubArray)  <br/>
 
 # BinarySearch 
 
@@ -383,7 +384,7 @@ https://leetcode.com/problems/move-zeroes/
 
 # SquaresOfSortedArray
 
-// https://leetcode.com/problems/squares-of-a-sorted-array/
+https://leetcode.com/problems/squares-of-a-sorted-array/
 
 
      var sortedSquares = function(nums) {
@@ -406,3 +407,29 @@ https://leetcode.com/problems/move-zeroes/
     };
 
     sortedSquares([-4,-2,-1,0,3,12])
+
+
+
+# MaxSubArray
+
+https://leetcode.com/problems/maximum-subarray/
+
+     var sortedSquares = function(nums) {
+    
+     let maxSum =  nums[0] 
+     const length = nums.length;
+
+     for (let index = 0; index < length; index++) {     
+          let sum = 0;
+          for (let j = index; j < length; j++) {    
+                 sum = sum+nums[j]
+                 if(sum>maxSum){
+                       maxSum=sum
+                  }                 
+          } 
+     }
+
+     return maxSum;
+     };
+
+// Not the greatest of solutions because time complexity is O(n^2) 
