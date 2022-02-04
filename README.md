@@ -13,6 +13,7 @@
 - [Merge Sorted Array](#MergeSortedArray)
 - [Max Product of 2 numbers in an Array](#MaxProduct)
 - [Missing Number](#MissingNumber)
+- [Majority Finder](#MajorityFinder)
 
 # BinarySearch 
 
@@ -270,3 +271,29 @@ https://leetcode.com/problems/missing-number/
  
     };
       
+# MajorityFinder
+
+https://leetcode.com/problems/majority-element/submissions/
+
+     var majorityElement = function(nums) {
+    
+     let map = new Map()
+     for (let index = 0; index < nums.length; index++) {
+              if(map.has(nums[index])){
+                      map.set(nums[index],map.get(nums[index])+1)
+              } else{
+                map.set(nums[index],1)
+              }
+     } 
+
+     let max =0 , maxKey;
+     map.forEach((value,key)=>{
+       if(value>max){
+         max = value
+         maxKey = key
+       }
+     })
+
+     return maxKey; 
+    
+    };
