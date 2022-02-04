@@ -1,22 +1,22 @@
 # Data Structures and Algorithms
 
-- 1 [Binary Search](#BinarySearch)
-- 2 [Fibonacci Number](#FibonacciNumber)
-- 3 [Pascal Numbers](#PascalNumbers)
-- 4 [Running Sum Of 1D Array](#RunningSumOf1DArray)
-- 5 [Shuffle Array](#ShuffleArray)
-- 6 [Reverse A String](#ReverseAString)
-- 7 [Matrix DiagonalSum](#MatrixDiagonalSum) 
-- 8 [Reverse Integer](#ReverseInteger)
-- 9 [Greatest Number Of Candies](#GreatestNumberOfCandies)
-- 10 [Jewels And Stones](#JewelsAndStones)
-- 11 [Merge Sorted Array](#MergeSortedArray)
-- 12 [Max Product of 2 numbers in an Array](#MaxProduct)
-- 13 [Missing Number](#MissingNumber)
-- 14 [Majority Finder](#MajorityFinder)
-- 15 [Single Number](#SingleNumber)
-- 16 [Rotate Array](#RotateArray)
-- 17 [TwoSum](#TwoSum)
+1 [Binary Search](#BinarySearch)  <br/>
+2 [Fibonacci Number](#FibonacciNumber)  <br/>
+3 [Pascal Numbers](#PascalNumbers)  <br/>
+4 [Running Sum Of 1D Array](#RunningSumOf1DArray)  <br/>
+5 [Shuffle Array](#ShuffleArray)  <br/>
+6 [Reverse A String](#ReverseAString)   <br/>
+7 [Matrix DiagonalSum](#MatrixDiagonalSum)  <br/>
+8 [Reverse Integer](#ReverseInteger)   <br/>
+9 [Greatest Number Of Candies](#GreatestNumberOfCandies)  <br/>
+10 [Jewels And Stones](#JewelsAndStones)  <br/>
+11 [Merge Sorted Array](#MergeSortedArray)   <br/>
+12 [Max Product of 2 numbers in an Array](#MaxProduct) <br/>
+13 [Missing Number](#MissingNumber)   <br/>
+14 [Majority Finder](#MajorityFinder)   <br/>
+15 [Single Number](#SingleNumber)   <br/>
+16 [Rotate Array](#RotateArray)   <br/>
+17 [TwoSum](#TwoSum)  <br/>
 
 # BinarySearch 
 
