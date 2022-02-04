@@ -15,6 +15,7 @@
 - [Missing Number](#MissingNumber)
 - [Majority Finder](#MajorityFinder)
 - [Single Number](#SingleNumber)
+- [Rotate Array](#RotateArray)
 
 # BinarySearch 
 
@@ -316,3 +317,20 @@ https://leetcode.com/problems/single-number/
      return(set.values().next().value)
     
     };
+
+# RotateArray
+
+https://leetcode.com/problems/rotate-array/
+
+     var rotate = function (nums, k) {
+       k = k % nums.length;
+
+       let resultArr = [];
+
+      for (let index = 0; index < nums.length; index++) {
+        resultArr[(index + k) % nums.length] = nums[index];
+      }
+      console.log(resultArr);
+     };
+
+     rotate([1, 2, 3, 4, 5, 6, 7], 3);
