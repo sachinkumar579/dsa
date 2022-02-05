@@ -20,6 +20,7 @@
 18 [MoveZeros](#MoveZeros) <br/>
 19 [SquaresOfSortedArray](#SquaresOfSortedArray) <br/>
 20 [MaxSubArray](#MaxSubArray)  <br/>
+21 [SearchInRotatedSortedArray](#SearchInRotatedSortedArray)
 
 # BinarySearch 
 
@@ -433,3 +434,30 @@ https://leetcode.com/problems/maximum-subarray/
      };
 
 // Not the greatest of solutions because time complexity is O(n^2) 
+
+
+# SearchInRotatedSortedArray
+
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+     var search = function(nums, target) {
+           let low = 0;
+           let high = nums.length - 1;
+           let mid;
+
+           while (low <= high) {
+                 mid = Math.floor((low + high) / 2);
+        
+                 if (nums[mid] == target) return mid;
+                 if (nums[mid] <= nums[high]) {
+                 if (target >= nums[mid] && target <= nums[high]) low = mid + 1;
+                     else high = mid - 1;
+                 } else {
+                 if (target >= nums[low] && target <= nums[mid]) high = mid - 1;
+                 else low = mid + 1;
+                 }
+           }
+      return -1;
+      };
+      
+      
