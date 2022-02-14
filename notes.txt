@@ -105,3 +105,10 @@ Big-O Cheat Sheet - https://www.bigocheatsheet.com/
 
 Reference - https://classroom.udacity.com/courses/ud513/
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Time complexity of Search and Sort algorithms 
+Bubble Sort , Selection Sort  - O(n ^2)
+Merge Sort - O(n logn)
+Linear Search - O(n)
+Binary Search - O(logn) 
